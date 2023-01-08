@@ -1,0 +1,59 @@
+.aboutus {
+    position: relative;
+    /* allows the overlay to move around*/
+}
+
+.aboutus-content {
+    width: 100%;
+    z-index: 2; /*pushes content above g*/
+}
+
+.aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.aboutus_restaurant_image {
+    margin: 2rem 4rem;
+}
+
+.aboutus_restaurant_image img {
+    height: 350px;
+}
+
+
+/* larger devices*/
+@media screen and (min-width: 2000px) {
+    .aboutus_restaurant_image {
+        height: 1110px;
+    }
+
+    .aboutus-content_about {
+        margin: 4rem 0;
+    }
+}
+
+/* tablet devices*/
+@media screen and (max-width: 1150px) {
+    .aboutus-content {
+        flex-direction: column;
+    }
+
+    .aboutus_restaurant_image {
+        margin: 4rem 0;
+    }
+}
+
+/* mobile devices */
+@media screen and (max-width: 650x) {
+    .aboutus_restaurant_image img {
+        height: 150px;
+        width: 200px;
+    }
+}
+
+
