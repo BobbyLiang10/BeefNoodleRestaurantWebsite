@@ -25,5 +25,3 @@ Option 2: Install locally on your device.
 - CSS
 - HTML
 
-
-
