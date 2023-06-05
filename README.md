@@ -10,8 +10,7 @@ culinary talents and dishes. Despite having Google and Yelp Reviews, I thought i
 and promote the restaurant. With this goal in mind, I created a fan-made website for the restaurant, and aim to have it officially hosted by the restaurant owners this year.
 
 ## How to run:
-Option 1: Check out the website: (to be added later)
-
+Option 1: Check out the website: https://bobbyliang10.github.io/BeefNoodleRestaurantWebsite/
 
 Option 2: Install locally on your device.
 1. Install Node on your machine.
